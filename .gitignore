@@ -1,0 +1,18 @@
+# 1) Ignore tất cả
+*
+
+# 2) Nhưng vẫn track .gitignore
+!.gitignore
+
+# 3) Cho phép thư mục notebooks và mọi thứ bên trong
+!notebooks/
+!notebooks/**
+
+# 4) Cho phép data/raw và mọi thứ bên trong (nhớ mở cả data/ để đi vào raw/)
+!data/
+!data/raw/
+!data/raw/**
+
+# 5) Ignore rác Windows ở mọi nơi (dù đang whitelist)
+**/desktop.ini
+**/Thumbs.db
